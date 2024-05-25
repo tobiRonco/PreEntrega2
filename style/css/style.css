@@ -236,8 +236,8 @@ h1:hover{
         height: 200px;
     }
     .imgLogo{
-        width: 30px;
-        height: 30px;
+        width: 70px;
+        height: 70px;
     }
     h1{
         font-size: 30px;
@@ -289,11 +289,11 @@ h1:hover{
     padding-top :10px;
 }
 
- .terceraseccion{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
- }
+
+    .terceraseccion{
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
 
 
