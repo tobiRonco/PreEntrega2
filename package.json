@@ -1,0 +1,26 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "primeros pasos con SASS",
+  "main": "inicio.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobiRonco/PreEntrega2.git"
+  },
+  "keywords": [
+    "sass",
+    "css",
+    "scss",
+    "style",
+    "node"
+  ],
+  "author": "tobias ronco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tobiRonco/PreEntrega2/issues"
+  },
+  "homepage": "https://github.com/tobiRonco/PreEntrega2#readme"
+}
