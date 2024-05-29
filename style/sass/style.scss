@@ -198,13 +198,13 @@ h4{
     transform: scale(1.3);
 }
 
-.imgLogo:hover{
-    transform: scale(1.1);
+
+.imgLogo{
+    &:hover{
+        transform: scale(1.1);
+    }
 }
 
-h1:hover{
-    transform: scale(1.2);
-}
 .textarea:focus{
    border: solid 5px red;
     letter-spacing: 3px;
