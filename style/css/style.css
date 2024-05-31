@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -22,7 +21,7 @@
   margin-top: 35px;
 }
 * .navegacion {
-  display: flex;
+  display: ;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -31,8 +30,7 @@
   height: 10vh;
   margin: 20px;
 }
-
-.navegacion ul li {
+* .navegacion ul li {
   display: flex;
   border-top: 3px red solid;
   border-left: 3px red solid;
@@ -42,9 +40,8 @@
   margin-right: 30px;
   text-transform: uppercase;
 }
-
-.navegacion ul li a {
-  text-decoration: none; /* se utiliza para quitarle la linea de abajo a los enlaces */
+* .navegacion ul li a {
+  text-decoration: none;
 }
 
 .centrodelapagina {
@@ -75,6 +72,9 @@ h2 {
   margin-bottom: 50px;
 }
 
+.ver {
+  display: inline;
+}
 .ver a {
   margin-left: 500px;
   font-size: 75px;
@@ -82,10 +82,6 @@ h2 {
   text-decoration: none;
   border: 5px red solid;
   padding: 15px;
-}
-
-.ver {
-  display: inline;
 }
 
 h5 {
@@ -156,13 +152,13 @@ h4 {
   background-color: aqua;
 }
 
-.input:focus {
+.imput:focus {
   color: blue;
-  font-weight: bold;
   letter-spacing: 2px;
+  font-weight: bold;
 }
 
-.imghamburguesas:hover { /* LO QUE HACE  QUE SE AUMENTA LA ESCALA Y CUANDO ´PASO EL MOUSE POR ENCIMA SE AGRANDA LA IMAGEN */
+.imghamburguesas:hover {
   transform: scale(1.3);
 }
 
@@ -170,12 +166,8 @@ h4 {
   transform: scale(1.1);
 }
 
-h1:hover {
-  transform: scale(1.2);
-}
-
 .textarea:focus {
-  border: solid 5px red;
+  border: solid red 5px;
   letter-spacing: 3px;
   font-weight: bold;
 }
