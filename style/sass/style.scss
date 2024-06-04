@@ -224,12 +224,19 @@ h4{
         flex-direction: column;
         justify-content: center;
         
+        .imghamburguesas
+        {
+            width: 250px;
+            height: 250px;
+            
+        }
+        .phamburguesas{
+            text-transform: $textomayus;
+            
+        }
+        
     }
-    .imghamburguesas
-    {
-        width: 200px;
-        height: 200px;
-    }
+   
     .imgLogo{
         width: 70px;
         height: 70px;
