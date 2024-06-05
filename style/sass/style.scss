@@ -22,13 +22,27 @@ h1{
     width: 100px;
     background-color: $colorfondologos ;
     padding: 15px;
-    margin-top: 35px;
+    margin-top: 35px; 
+    animation: girar 3s  linear;
+    animation-iteration-count: 5; /* hago que la animacion  se haga 5 veces */
+   
     
-    
-    
+
     
 
 }
+@keyframes girar {
+    0% {
+        transform: rotate(0deg) ;
+    }
+    100%{ 
+        transform: rotate(360deg);
+    }
+    
+}
+
+
+
 .navegacion{
     display: $flex1;
     flex-direction:row;
