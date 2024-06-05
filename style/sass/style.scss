@@ -156,13 +156,11 @@ h4{
     
 }
 
-.parrafo__nosotros{
-    text-transform: uppercase;
-    padding: 30px;
-    margin: 50px;
-    letter-spacing: 3px;
-    text-align: justify;
+.parrafo{
     
+    padding: 30px;
+    text-align: justify;
+    text-transform: uppercase;
 }
 
 
@@ -290,7 +288,14 @@ h4{
         
     }
 
+    .parrafo{
+    
+        padding:  15px;
+        text-align :start;
+        text-transform : uppercase;
+        letter-spacing : 3px;
 
+    }   
  
    
  .foot{
