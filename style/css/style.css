@@ -129,6 +129,14 @@ h4 {
   text-transform: uppercase;
 }
 
+.parrafo__nosotros {
+  text-transform: uppercase;
+  padding: 30px;
+  margin: 50px;
+  letter-spacing: 3px;
+  text-align: justify;
+}
+
 .formulario {
   padding: 50px;
   display: flex;
