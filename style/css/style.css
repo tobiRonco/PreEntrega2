@@ -165,10 +165,16 @@ h4 {
   font-weight: bold;
 }
 
+.imghamburguesas {
+  transition: transform 3s ease;
+}
 .imghamburguesas:hover {
   transform: scale(1.3);
 }
 
+.imgLogo {
+  transition: transform 3s ease;
+}
 .imgLogo:hover {
   transform: scale(1.1);
 }

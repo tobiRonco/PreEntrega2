@@ -197,6 +197,8 @@ h4{
 }
 
 .imghamburguesas{
+    transition: transform 3s  ease;
+  
     &:hover{
         transform: scale(1.3);
     }
@@ -204,6 +206,7 @@ h4{
 
 
 .imgLogo{
+    transition: transform 3s ease;
     &:hover{
         transform: scale(1.1);
     }
