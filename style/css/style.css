@@ -203,11 +203,11 @@ h4 {
   .centrodelapagina {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: stretch;
   }
   .centrodelapagina .imghamburguesas {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
   }
   .centrodelapagina .phamburguesas {
     text-transform: uppercase;

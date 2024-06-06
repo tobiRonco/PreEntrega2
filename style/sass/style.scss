@@ -248,12 +248,14 @@ h4{
     {
         display: $flex1;
         flex-direction: column;
-        justify-content: center;
+        justify-content:stretch;
+        
+        
         
         .imghamburguesas
         {
-            width: 250px;
-            height: 250px;
+            width: 300px;
+            height: 300px;
             
         }
         .phamburguesas{
