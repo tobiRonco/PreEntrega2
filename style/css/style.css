@@ -53,6 +53,15 @@
   text-decoration: none;
 }
 
+.nav-link {
+  padding: 3px;
+  margin: 10px;
+  text-transform: uppercase;
+}
+.nav-link:hover {
+  background-color: blue;
+}
+
 .centrodelapagina {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* aca defino que hay 3 columnas */
