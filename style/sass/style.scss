@@ -5,6 +5,7 @@
 
 body{
     background-color: $colordefondo;
+   
 }
 h1{
     color: red;
@@ -250,7 +251,8 @@ h4{
     {
         display: $flex1;
         flex-direction: column;
-        justify-content:stretch;
+        justify-content: center;
+        align-items: center;
         
         
         
