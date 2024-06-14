@@ -5,6 +5,10 @@
 
 body{
     background-color: $colordefondo;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
    
 }
 h1{
@@ -179,7 +183,7 @@ h4{
     display: $flex1;
     flex-direction: row;
     justify-content: space-around;
-    
+    margin-top: auto;    
 }
 .pdefoot{
     text-align: center;
