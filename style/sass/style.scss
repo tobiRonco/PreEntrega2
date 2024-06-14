@@ -45,14 +45,16 @@ h1{
 
 
 }     
-.nav-link{
+.nav-link{ /* estilizando el header hecho con boostrap */
     padding: 3px;
     margin: 10px;
     text-transform: $textomayus;
     &:hover{
-        background-color: blue;
+        background-color: rgb(24, 3, 255);
+        border: 3px black solid;
     }
 }
+
     
 
 .centrodelapagina{
