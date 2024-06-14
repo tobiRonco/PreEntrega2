@@ -136,13 +136,6 @@ h4 {
   letter-spacing: 3px;
 }
 
-.formulario {
-  padding: 50px;
-  display: flex;
-  flex-direction: column;
-  width: 400px;
-}
-
 .foot {
   display: flex;
   flex-direction: row;
