@@ -51,13 +51,14 @@ h1{
 }     
 .nav-link{ /* estilizando el header hecho con boostrap */
     padding: 3px;
-    margin: 10px;
+    box-sizing: border-box;
     text-transform: $textomayus;
     &:hover{
         background-color: rgb(24, 3, 255);
         border: 3px black solid;
     }
 }
+
 
     
 
@@ -168,7 +169,7 @@ h4{
     text-align: justify;
     letter-spacing: 3px;
 }
-form{
+.form{
     width: 24%;
 }
 

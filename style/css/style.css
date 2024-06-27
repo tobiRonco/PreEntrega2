@@ -35,7 +35,7 @@
 
 .nav-link { /* estilizando el header hecho con boostrap */
   padding: 3px;
-  margin: 10px;
+  box-sizing: border-box;
   text-transform: uppercase;
 }
 .nav-link:hover {
@@ -136,7 +136,7 @@ h4 {
   letter-spacing: 3px;
 }
 
-form {
+.form {
   width: 24%;
 }
 
