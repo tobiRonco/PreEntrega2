@@ -52,22 +52,25 @@
           </div>
         </div>
       </nav>
-    <main class="main">
-        <div class="divcontainer">
-            <div>
-                <img  class="image--achicar" src="./../assets/image/hamburguesas img/hamburguesa-con-queso.png" alt="">
-            </div>
-            <div>
-                <input type="email" placeholder="mail" required>
-            </div>
-            <div>
-                <input type="password" placeholder="contraseña" required>
-            </div>
-            <div>
-                <input type="button" value="enviar">
-            </div>
-        </div>
-    </main>
+      <div class="container-fluid">
+        <form class="mx-auto ">
+          <h4 class="text-center">iniciar sesion</h4>
+          <div class="mb-3 mt-5">
+            <label for="exampleInputEmail1" class="form-label" >ingresar email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+           
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">ingresar contraseña</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">recordar </label>
+          </div>
+          <button type="submit" class="btn btn-primary">enviar</button>
+        </form>
+      </div>
     
     
     <footer class="foot ">
