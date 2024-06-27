@@ -47,7 +47,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* aca defino que hay 3 columnas */
   grid-template-rows: repeat(2, 1fr); /* aca defino que hay 2 filas */
-  justify-content: center;
   column-gap: 50px;
   padding: 50px;
   gap: 50px;
@@ -60,6 +59,7 @@
 
 .phamburguesas {
   text-transform: uppercase;
+  text-align: center;
 }
 
 h2 {

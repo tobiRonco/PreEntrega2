@@ -67,7 +67,6 @@ h1{
     display: $grilla;
     grid-template-columns:repeat(3,1fr) ; /* aca defino que hay 3 columnas */
     grid-template-rows: repeat(2,1fr);    /* aca defino que hay 2 filas */
-    justify-content: center;
     column-gap: 50px;
     padding: 50px; 
     gap: 50px;
@@ -80,6 +79,7 @@ h1{
 
 .phamburguesas{
     text-transform: $textomayus;
+    text-align: center;
 }
 
 h2{
