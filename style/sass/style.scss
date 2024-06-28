@@ -1,346 +1,270 @@
 @import "variables";
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 
-body{
+  body {
     background-color: $colordefondo;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    
-   
-}
-h1{
+  }
+  h1 {
     color: red;
     font-size: 100px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
     text-align: center;
     text-transform: $textomayus;
     margin-top: 25px;
     margin-bottom: 50px;
-   
-
-
-}
-.imgLogo{
+  }
+  .imgLogo {
     width: 100px;
     padding: 15px;
-    margin-top: 35px; 
-    animation: girar 3s  linear;
+    margin-top: 35px;
+    animation: girar 3s linear;
     animation-iteration-count: 5; /* hago que la animacion  se haga 5 veces */
-   
-    
-
-    
-
-}
-@keyframes girar {
+  }
+  @keyframes girar {
     0% {
-        transform: rotate(0deg) ;
+      transform: rotate(0deg);
     }
-    100%{ 
-        transform: rotate(360deg);
+    100% {
+      transform: rotate(360deg);
     }
-    
+  }
+}
+.nav-link {
+  /* estilizando el header hecho con boostrap */
+  padding: 3px;
+  box-sizing: border-box;
+  text-transform: $textomayus;
+  &:hover {
+    background-color: rgb(24, 3, 255);
+    border: 3px black solid;
+  }
 }
 
+.centrodelapagina {
+  display: $grilla;
+  grid-template-columns: repeat(3, 1fr); /* aca defino que hay 3 columnas */
+  grid-template-rows: repeat(2, 1fr); /* aca defino que hay 2 filas */
+  column-gap: 50px;
+  padding: 50px;
+  gap: 50px;
+}
+.imghamburguesas {
+  height: 300px;
+  width: 350px;
+}
 
+.phamburguesas {
+  text-transform: $textomayus;
+  text-align: center;
+}
 
+h2 {
+  text-align: center;
+  text-transform: $textomayus;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
-}     
-.nav-link{ /* estilizando el header hecho con boostrap */
-    padding: 3px;
-    box-sizing: border-box;
+.ver {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  a {
+    font-size: 30px;
     text-transform: $textomayus;
-    &:hover{
-        background-color: rgb(24, 3, 255);
-        border: 3px black solid;
-    }
+    text-decoration: none;
+    border: 2px red solid;
+    padding: 10px;
+  }
 }
 
-
-    
-
-.centrodelapagina{
-
-    display: $grilla;
-    grid-template-columns:repeat(3,1fr) ; /* aca defino que hay 3 columnas */
-    grid-template-rows: repeat(2,1fr);    /* aca defino que hay 2 filas */
-    column-gap: 50px;
-    padding: 50px; 
-    gap: 50px;
-}
-.imghamburguesas{
-   height: 300px;
-   width: 350px;
+h5 {
+  text-align: center;
+  font-size: 16px;
+  text-transform: $textomayus;
+  padding-top: 100px;
 }
 
-
-.phamburguesas{
-    text-transform: $textomayus;
-    text-align: center;
+h4 {
+  text-align: center;
+  padding: 15px;
+  text-transform: $textomayus;
+}
+.main {
+  width: 100vw;
+  height: 50vh;
+  display: $flex1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.divcontainer {
+  padding: 30px;
+  margin-top: 50px;
+  border: solid black 2px;
+  border-radius: 30px;
 }
 
-h2{
-    text-align: center;
-    text-transform: $textomayus;
-    margin-top: 50px;
-    margin-bottom: 50px;
+.image--achicar {
+  height: 180px;
+  width: 180px;
 }
 
-
-
-.ver{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    a{
-       
-        font-size: 30px;
-        text-transform: $textomayus;
-        text-decoration: none;
-        border: 2px red solid;
-        padding: 10px;
-    }
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.opinion__title {
+  text-align: center;
+  text-transform: $textomayus;
 }
 
-
-
-h5{
-    text-align: center;
-    font-size: 16px;
-    text-transform: $textomayus;
-    padding-top: 100px;
+.parrafo {
+  padding: 30px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+.form {
+  width: 24%;
 }
 
-h4{
-    text-align: center;
-    padding: 15px;
-    text-transform: $textomayus;
-
-
-
+.foot {
+  display: $flex1;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: auto;
 }
-.main{
-    width: 100vw;
-    height: 50vh;
-    display: $flex1;
-    flex-direction: column; 
-    justify-content: center;
-    align-items: center;
-
-    
-}
-.divcontainer{
-
-    padding: 30px;
-    margin-top: 50px;
-    border: solid black 2px;
-    border-radius: 30px;
-   
-}
-
-.image--achicar{
-    height: 180px;
-    width: 180px;
-    
-}
-
-
-.contenedor{
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   align-items: center;
-   margin-top: 50px;
-    
-}
-.opinion__title{
-    text-align: center;
-    text-transform: $textomayus;
-    
-}
-
-.parrafo{
-    
-    padding: 30px;
-    text-align: justify;
-    letter-spacing: 3px;
-}
-.form{
-    width: 24%;
-}
-
-
-
-
-.foot{
-    display: $flex1;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: auto;    
-}
-.pdefoot{
-    text-align: center;
-    text-transform: $textomayus;
-    font-weight: bold;
+.pdefoot {
+  text-align: center;
+  text-transform: $textomayus;
+  font-weight: bold;
 }
 /* utilizando pseudo clases */
-.navegacion li:nth-child(2n+1){ /* aca uso pseudo clase para darle colores a mi li */
-    background-color: aqua;
+.navegacion li:nth-child(2n + 1) {
+  /* aca uso pseudo clase para darle colores a mi li */
+  background-color: aqua;
 }
-.imput{
-    &:focus{
-        color: blue;
-        letter-spacing: 2px;
-        font-weight: bold;
-    }
-}
-
-.imghamburguesas{
-    transition: transform 3s  ease;
-  
-    &:hover{
-        transform: scale(1.3);
-    }
+.imput {
+  &:focus {
+    color: blue;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
 }
 
+.imghamburguesas {
+  transition: transform 3s ease;
 
-.imgLogo{
-    transition: transform 3s ease;
-    &:hover{
-        transform: scale(1.1);
-    }
+  &:hover {
+    transform: scale(1.3);
+  }
 }
 
-.textarea{
-    &:focus{
-        border: solid red 5px;
-        letter-spacing: 3px;
-        font-weight: bold;
-    }
-}
-.navegacion{
-   li{
-    &:hover{
-        transform: scale(1.1);
-    }
-   }
+.imgLogo {
+  transition: transform 3s ease;
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
+.textarea {
+  &:focus {
+    border: solid red 5px;
+    letter-spacing: 3px;
+    font-weight: bold;
+  }
+}
+.navegacion {
+  li {
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
 
-    @media  screen and  (max-width:480px)
-{
-    .centrodelapagina
-    {
-        display: $flex1;
-        flex-direction: column;
-    
-        
-        
-        
-        .imghamburguesas
-        {
-            width: 300px;
-            height: 300px;
-            
-        }
-        .phamburguesas{
-            text-transform: $textomayus;
-            
-        }
-        
+@media screen and (max-width: 480px) {
+  .centrodelapagina {
+    display: $flex1;
+    flex-direction: column;
+
+    .imghamburguesas {
+      width: 300px;
+      height: 300px;
     }
-   
-    .imgLogo{
-        width: 70px;
-        height: 70px;
+    .phamburguesas {
+      text-transform: $textomayus;
     }
-    h1{
-        font-size: 30px;
-    }
-   .section{
+  }
+
+  .imgLogo {
+    width: 70px;
+    height: 70px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .section {
     display: $flex1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   }
-   .ver{
-    a{
-       
-
-            margin: 10px;
-            font-size: 30px;
-            text-transform: $textomayus;
-            text-decoration: none;
-            border: 2px red solid;
-            padding: 5px;
-           
+  }
+  .ver {
+    a {
+      margin: 10px;
+      font-size: 30px;
+      text-transform: $textomayus;
+      text-decoration: none;
+      border: 2px red solid;
+      padding: 5px;
     }
-   }
-   .main{
+  }
+  .main {
     display: $flex1;
-    flex-direction: column; 
+    flex-direction: column;
     justify-content: center;
     margin-bottom: 150px;
-    margin-top:50px;
-    }
+    margin-top: 50px;
+  }
 
+  .opinion {
+    margin-top: 50px;
+    margin-left: 5px;
+  }
 
-    .opinion{
-        margin-top: 50px;
-        margin-left: 5px;
-        
-    }
+  .parrafo {
+    padding: 15px;
+    text-align: start;
+    letter-spacing: 3px;
+  }
 
-    .parrafo{
-    
-        padding:  15px;
-        text-align :start;
-        letter-spacing : 3px;
-
-    }   
- 
-   
- .foot{
+  .foot {
     display: $flex1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
- }
- 
- h5{
+  }
+
+  h5 {
     text-align: center;
     font-size: 16px;
     text-transform: $textomayus;
-    padding-top :10px;
+    padding-top: 10px;
+  }
+
+  .terceraseccion {
+    display: $flex1;
+    justify-content: space-evenly;
+  }
 }
-
-
-    .terceraseccion{
-        display: $flex1;
-        justify-content: space-evenly;
-    }
-}
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
